@@ -69,9 +69,8 @@ if __name__ == "__main__":
             a = str(datetime.datetime.now().hour)
             b = str(datetime.datetime.now().minute)
             if(int(b) < 10):
-                speak(f"Yes! It's {a} oh {b}")
+                speak(f"It's {a} oh {b}")
             else:
-                speak(f"Sure! It's {a} and {b}")
-            
+                speak(f"It's {a}:{b}")
 
             
